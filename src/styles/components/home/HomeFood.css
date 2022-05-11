@@ -1,0 +1,30 @@
+.homefood-section {
+    height: 80vh;
+    border: solid black 1px;
+    padding: 0 50px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.back-color {
+    background-color: green;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 60%;
+    border-radius: 0 0 0 20px;
+    z-index: 2;
+}
+
+.second-back {
+    background-color: black;
+    width: 30%;
+    height: 70%;
+    position: relative;
+    left: 35%;
+    top: 22%;
+    border-radius: 20px;
+    z-index: 4;
+    
+}
