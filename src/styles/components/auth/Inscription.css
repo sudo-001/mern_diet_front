@@ -1,0 +1,73 @@
+.signupform {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.formulaire {
+    /* border: solid green; */
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    height: 600px;
+    width: 70%;
+    display: flex;
+    position: relative;
+}
+
+.left {
+    /* border: solid red; */
+    width: 40%;
+    border-radius: 25px 0px 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.left a:hover{
+    padding: 10px 20px;
+}
+
+.right {
+    /* border: solid yellow; */
+    width: 60%;
+    border-radius: 0px 25px 25px 0px;
+    position: relative;
+}
+
+.right form {
+    /* border: solid red; */
+    width: 90%;
+    height: 95%;
+    margin-left: initial;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align:left;
+}
+
+.right form input,select, .right form button:last-child {
+    transform: initial;
+    width: 80%;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: initial;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+
+.right form button:last-child {
+    border: solid 1px green;
+    height: 60px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.right form button:last-child:hover {
+    background: green;
+    color: white;
+}

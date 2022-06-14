@@ -37,6 +37,11 @@ a:hover {
     background: green;
 }
 
+.no-hover:hover {
+    background-color: inherit;
+    color: inherit;
+}
+
 .link-active {
     border-radius: 30px;
     color: white;

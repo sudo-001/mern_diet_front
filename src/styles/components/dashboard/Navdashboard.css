@@ -1,0 +1,46 @@
+.Navdashboard {
+    position: relative;
+    height: 80%;
+    top: 10%;
+    padding: 0 10px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.Navdashboard > .container {
+    border: 3px solid transparent;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.274);
+    border-radius: 25px;
+    box-shadow: 2px 2px 10px grey;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+    overflow: hidden;
+    transition: transform 300ms;
+    padding: 50px 40px 20px 10px;
+
+}
+
+.Navdashboard > .container img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: none;
+}
+
+.Navdashboard > .container div {
+   margin-bottom: 25px;
+}
+
+
+.Navdashboard-active {
+    transform: scale(1.1);
+}
+
+.Navdashboard a {
+    transform: inherit;
+    background: inherit;
+}
+

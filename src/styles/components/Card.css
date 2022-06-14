@@ -1,0 +1,65 @@
+.food-card {
+    /* border: solid red; */
+    background: rgba(255, 255, 255, 0.3);
+    width: 280px;
+    min-height: 250px;
+    max-height: 350px;
+    flex: 1 0 25%;
+    margin: 10px;
+    padding: 0px 5px 60px 0px ;
+    border-radius: 35px;
+    position: relative;
+    overflow: hidden;
+}
+
+.food-card img {
+
+    display: block;
+    width: 290px;
+    height: 175px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.food-card h2 {
+    letter-spacing: 1px;
+    line-height: 20px;
+    margin: 10px 0 10px;
+    padding: 0px 10px;
+}
+
+.food-card .description {
+    min-height: 50px;
+    max-height: 100px;
+    color: grey;
+    overflow-y: scroll;
+    word-wrap: break-word;
+    padding: 0px 10px;
+    text-indent: 10px;
+}
+
+.food-card .description::-webkit-scrollbar {
+    display: none;
+}
+
+.food-card .food-btn {
+    margin: 20px 10px 0 10px;
+    width: 75px;
+    padding: 5px 15px ;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 15px;
+
+    transition: background-color 500ms;
+    border: solid green 1px;
+}
+
+.food-btn:hover {
+    background: green;
+    font-size: 1.025rem;
+    color: white;
+}
+
+.food-card a:hover {
+    background-color: inherit;
+}

@@ -1,0 +1,80 @@
+.LoginForm {
+    /* border: solid purple 3px; */
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+
+.LoginForm .container {
+    /* border: solid green 5px; */
+    height:600px;
+    display: flex;
+    width: 70%;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.3);
+
+}
+
+.LoginForm .container .left {
+    border-right: 1px solid grey;
+    width: 60%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginForm .container .right {
+    
+    width: 50%;
+    padding:60px;
+}
+.LoginForm .container .left form {
+    margin-right: 15px;
+    height: 400px;
+}
+
+.LoginForm .container .left input {
+    
+    margin-bottom: 20px;
+ 
+}
+
+.LoginForm .container .left  button{
+    transition: all 500ms;
+}
+
+.LoginForm .container .left  button, .LoginForm .container .right a {
+
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+    color: black;
+    border: solid 1px green;
+}
+
+.LoginForm .container .left  button:hover, .LoginForm .container .right a:hover {
+    padding: 5px;
+    background-color: green;
+    color: white;
+}
+
+.LoginForm .container .right a {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    border-radius: 20px;
+    border: solid 1px black;
+    padding: 0px 10px;
+
+    font-size: 20px;
+}

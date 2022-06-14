@@ -1,0 +1,40 @@
+.FoodAddForm {
+    border: solid 2px purple;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    /* border: solid red; */
+    height: 80vh;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+}
+
+.form_container form {
+    /* border: solid green; */
+    border: none;    
+    margin: initial;
+    height: 100%;
+    padding: initial;
+}
+
+
+.form_container form h2 {
+    text-align: center;
+}
+
+.form_container form input, .form_container form textarea {
+    padding: 10px;
+    margin: 10px;
+}
+
+.form_container form input:nth-child(4) {
+    padding: initial;
+    margin: initial;
+    height: 30vh;
+    padding: 5px 5px 0px 5px;
+}

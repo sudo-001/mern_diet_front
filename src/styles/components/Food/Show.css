@@ -1,0 +1,63 @@
+.Show {
+    min-height: 100vh;
+    border-top: solid black;
+    display: flex;
+    position: relative;
+}
+
+.Show-left {
+    border-right: solid black;
+    width: 50%;
+    position: relative;
+}
+
+.Show-left img {
+    /* border: solid red; */
+    position: absolute;
+    height: 40%;
+    width: 100%;
+}
+
+.Show-right {
+    /* border: solid green; */
+    width: 50%;
+    position: relative;
+}
+
+.Show-right > .food-decsription {
+    /* border: solid black; */
+    width: 100%;
+    word-wrap:break-word;
+    height: 100%;
+}
+
+
+
+.Show-right > .food-decsription span {
+    font-weight:500;
+}
+
+.Show-right > .food-decsription > .description {
+    /* border: solid red; */
+    padding: 5px;
+    text-indent: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.Show-right > .food-decsription > .description::-webkit-scrollbar {
+    display: none;
+}
+
+.Show-right > .food-decsription > .ingredients {
+    /* border: solid red; */
+    padding: 5px;
+    text-indent: 10px;
+    height: 300px;
+    overflow-Y: scroll;
+}
+
+.Show-right > .food-decsription > .ingredients::-webkit-scrollbar {
+    display: none;
+}
+
